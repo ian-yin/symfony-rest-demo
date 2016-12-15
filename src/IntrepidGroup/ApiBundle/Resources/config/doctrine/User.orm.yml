@@ -1,0 +1,24 @@
+IntrepidGroup\ApiBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: IntrepidGroup\ApiBundle\Entity\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: 255
+        firstName:
+            type: string
+            length: 255
+        lastName:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

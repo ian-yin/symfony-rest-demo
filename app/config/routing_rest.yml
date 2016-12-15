@@ -1,0 +1,3 @@
+Intrepid_Group_Rest_Api :
+    type : rest
+    resource: "@IntrepidGroupApiBundle/Resources/config/routing.yml"

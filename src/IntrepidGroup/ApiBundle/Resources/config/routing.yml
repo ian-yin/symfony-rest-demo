@@ -1,0 +1,4 @@
+users:
+  type: rest
+  resource: "IntrepidGroupApiBundle:User"
+  name_prefix:  api_

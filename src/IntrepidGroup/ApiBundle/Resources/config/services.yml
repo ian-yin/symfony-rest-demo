@@ -1,0 +1,4 @@
+services:
+#    intrepid_group_api.example:
+#        class: IntrepidGroup\ApiBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
